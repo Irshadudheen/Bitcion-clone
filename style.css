@@ -1,0 +1,309 @@
+*{
+    margin: 0;
+    font-family: 'Source Sans 3', sans-serif;
+
+}
+#main-header{
+    height: 55px;
+    background: #F7931A;
+    justify-content:center;
+    align-items: center;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+    
+}
+@media only screen and (max-width: 600px) {
+    #main-header {
+      display: none;
+      
+    }
+    #bitcoin-logo{
+        width: 80px;
+        
+    }
+}
+
+.navbar{
+    padding-left: 50px;
+}
+
+.text-main{
+    text-decoration: none;
+}
+.navbar-nav{
+    padding-left: 230px!important;
+}
+.nav-item{
+    padding-left: 10px;
+}
+.nav-item-1{
+    padding-left: 170px;
+}
+#main-text{
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+  #main-text {
+    padding: 20px; /* Add padding for better readability */
+  }
+
+  .main-line {
+    font-size: 2.5rem;
+    text-align: center; /* Set a base font size */
+  }
+
+  @media (max-width: 768px) {
+    /* Adjust font size for smaller screens */
+    .main-line {
+      font-size: 1.5rem;
+    }
+  }
+
+
+
+
+#box-1{
+    margin-top:30px;
+    margin-left: 30px;
+    width: 290px;
+    height: 55px;
+    background-color: #F7931A;
+    color: #fff;
+    padding-left: 70px;
+    padding-top: 13px;
+}
+#box-2{
+    margin-top: 30px;
+    margin-left: 30px;
+    border-style: solid;
+    border-color: #F7931A;
+    color: #F7931A;
+    font-weight: bold;
+    width: 290px;
+    height: 55px;
+    padding-left: 70px;
+    padding-top: 13px;
+}
+#box-3{
+    margin-top: 30px;
+    margin-left: 30px;
+    border-style: solid;
+    border-color: #F7931A;
+    color: #F7931A;
+    font-weight: bold;
+    width: 290px;
+    height: 55px;
+    padding-left: 70px;
+    padding-top: 13px;
+}
+#box-align{
+padding-top: 30px;
+padding-left: 30px;
+}
+#watch{
+    height: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+#align-text{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+@media only screen and (max-width: 600px) {
+     #watch{
+      display: none;
+    }
+    
+    
+    
+  }
+  .overview{
+    width: 100%;
+    height: 600px;
+    background-image: url(img/overview-bg.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 160px;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    
+  }
+  .overview-1{
+    font-size: 2rem;
+    padding-top: 100px;
+  }
+  @media only screen and (max-width: 600px) {
+
+  .overview{
+    height: 200px;
+    width: 100%;
+    padding: 70px;
+    background-size: cover;
+
+  }
+  .overview-1{
+    font-size: 1.5rem;
+  }
+  }
+  #card-1{
+    margin: 20px;
+    width:200px;
+    height: 200px;
+    background-color: #090c14;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+  }
+  #card-2{
+    margin: 20px;
+    width:200px;
+    height: 200px;
+    background-color: #090c14;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+    
+
+  }
+  #card-3{
+    margin: 20px;
+    width:200px;
+    height: 200px;
+    background-color: #090c14;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+  }
+  #full-card{
+    padding-bottom: 100px;
+    padding-left:200px;
+
+  }
+  #demmi-div{
+    display: none;
+  }
+
+  @media only screen and (max-width: 600px) {
+    #full-card{
+
+        padding-bottom: 0;
+        padding-left: 0;
+    }
+    #demmi-div{
+        display: block;
+        width: 100%;
+        height: 800px;
+        background-color: #13161f;
+    }
+  }
+  #about{
+    height: 877px;
+    padding-top: 50px;
+  }
+  #about-main-text{
+    color: #F7931A;
+  }
+  #paragraph{
+    padding-left: 50px;
+    padding-top: 50px;
+    font-size: 1.3rem;
+  }
+
+
+  #change-style-text{
+    color: #4D5060;
+    font-weight: bold;
+  }
+  #change-style-text-1{
+    font-weight:bold ;
+    color: #3490E6;
+  }
+  @media only screen and (max-width: 600px) {
+    #paragraph{
+        font-size: 1rem;
+    }
+}
+#transactions{
+    padding-top: 100px;
+}
+.text-align{
+padding-left: 10px;
+padding-top: 10px;
+font-weight: bold;
+font-size: 15px;
+}
+#get-started{
+    margin-top:30px;
+    margin-left: 30px;
+    width: 290px;
+    height: 55px;
+    background-color: #13161F;
+    color: #fff;
+    padding-left: 70px;
+    padding-top: 13px;
+
+}
+#div-botton{
+    display: flex;
+     justify-content: center;
+      padding-top: 100px
+}
+@media only screen and (max-width: 600px) {
+    #demmi-div-1{
+        width: 100%;
+        height: 350px;
+    }
+}
+#footer{
+    background: #13161f;
+    background-image: url(img/footer-bg.svg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 100%;
+    height: 200px;
+    background-repeat: no-repeat;
+
+}
+#support{
+width: 100%;
+height: 300px;
+padding-left: 50px;
+
+background: #13161F;
+color: #fff;
+}
+#button-donate{
+    background: #F7931A;
+    width: 81px;
+    height: 31px;
+    border-radius: 2%;
+    display: flex;
+    float: left;
+    justify-content: center;
+    align-items:center;
+    padding-top: 15px; 
+    position: absolute;
+    left: 200px;
+    
+}
